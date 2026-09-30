@@ -6,26 +6,26 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'What country is this?',
+        answer: 'Italy',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
+            'What instrument is a high pitched string instrument? ',
         imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+        answer: 'Violin',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'Which city did I grow up in',
+        answer: 'New York City',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'What month is my birthday?',
+        answer: 'September',
     }
 ]);
 
@@ -34,30 +34,30 @@ const presentQuestions: Question[] =
         {
             points: 400,
             question:
-                'This is Donu, a character from which video game?',
-            imgSrc: '/donu-gif.gif',
-            answer: 'Slay the Spire',
-        },
-        {
-            points: 100,
-            question:
-                'Tahini is made from which seed?',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
-            answer: 'Sesame',
-        },
-        {
-            points: 200,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+                'What is my favorite sport?',
+            imgSrc: '/',
+            answer: 'Figure Skating',
         },
         {
             points: 300,
             question:
-                'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+                'What breed dog is this?',
+            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
+            answer: 'Maltipoo',
+        },
+        {
+            points: 200,
+            question: 'What other sport do I do?',
+            imgSrc: '/programming_language.png',
+            answer: 'Running',
+        },
+        {
+            points: 100,
+            question:
+                'What food is this?',
             imgSrc:
                 "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-            answer: 'Italy',
+            answer: 'Pasta',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
@@ -74,15 +74,15 @@ const futureQuestions: Question[] = sortQuestions([
 
 const categories = [
     {
-        title: 'Ms Feng\'s Past',
+        title: 'Emily\'s Past',
         questions: pastQuestions
     },
     {
-        title: `Ms. Feng's Present`,
+        title: `Emily's Present`,
         questions: presentQuestions
     },
     {
-        title: "Ms. Feng's Future",
+        title: "Emily's Future",
         questions: futureQuestions
     }
 ];
