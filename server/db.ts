@@ -6,8 +6,8 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What country is this?',
-        answer: 'Italy',
+        question: 'What city did I grow up in?',
+        answer: 'New York City',
     },
     {
         points: 200,
@@ -19,13 +19,13 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 300,
         question:
-            'Which city did I grow up in',
-        answer: 'New York City',
+            'What month was I born in?',
+        answer: 'September',
     },
     {
         points: 400,
-        question: 'What month is my birthday?',
-        answer: 'September',
+        question: 'What country is this?',
+        answer: 'Italy',
     }
 ]);
 
@@ -60,14 +60,38 @@ const presentQuestions: Question[] =
             answer: 'Pasta',
         }
     ]);
-const futureQuestions: Question[] = sortQuestions([
+const randomQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This type of 2D drawing allows you to see the sides of a 3D object at the same scale.',
+            'What season is this?',
         imgSrc:
             "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
-        answer: 'Isometric',
+        answer: '',
+    },
+    {
+        points: 200,
+        question:
+            'What color has the shortest wavelength ',
+        imgSrc:
+            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
+        answer: 'Purple',
+    },
+    {
+     points: 300,
+        question:
+            'What did I like baking have when I had more free time?',
+        imgSrc:
+            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
+        answer: 'Cake',
+    },
+    {
+     points: 400,
+        question:
+            'What did I learn to solve during COVID',
+        imgSrc:
+            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
+        answer: 'Rubiks cube',
     }
 ]);
 
@@ -82,8 +106,8 @@ const categories = [
         questions: presentQuestions
     },
     {
-        title: "Emily's Future",
-        questions: futureQuestions
+        title: "Emily's Random",
+        questions: randomQuestions
     }
 ];
 
