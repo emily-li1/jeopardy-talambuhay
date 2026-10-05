@@ -26,6 +26,7 @@ const pastQuestions: Question[] = sortQuestions([
         points: 400,
         question: 'What country is this?',
         answer: 'Italy',
+        imgSrc: "/italy.png"
     }
 ]);
 
@@ -64,10 +65,8 @@ const randomQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'What season is this?',
-        imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
-        answer: '',
+            'What season my favorite?',
+        answer: 'Summer',
     },
     {
         points: 200,
@@ -82,7 +81,7 @@ const randomQuestions: Question[] = sortQuestions([
         question:
             'What did I like baking have when I had more free time?',
         imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
+            "/cake.jpg",
         answer: 'Cake',
     },
     {
