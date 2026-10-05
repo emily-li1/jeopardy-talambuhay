@@ -13,7 +13,6 @@ const pastQuestions: Question[] = sortQuestions([
         points: 200,
         question:
             'What instrument is a high pitched string instrument? ',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
         answer: 'Violin',
     },
     {
@@ -36,60 +35,54 @@ const presentQuestions: Question[] =
             points: 400,
             question:
                 'What is my favorite sport?',
-            imgSrc: '/',
+            imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/Outdoor_ice_rink_in_It%C3%A4kyl%C3%A4_20170306.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original',
             answer: 'Figure Skating',
         },
         {
             points: 300,
             question:
                 'What breed dog is this?',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
+            imgSrc: '/dog.jpeg',
             answer: 'Maltipoo',
         },
         {
             points: 200,
             question: 'What other sport do I do?',
-            imgSrc: '/programming_language.png',
             answer: 'Running',
         },
         {
             points: 100,
             question:
                 'What food is this?',
-            imgSrc:
-                "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-            answer: 'Pasta',
+            imgSrc: '/pasta.jpeg',
+            answer: 'pasta',
         }
     ]);
 const randomQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'What season my favorite?',
+            'What season is my favorite?',
+            imgSrc: 'https://media.istockphoto.com/id/513694026/photo/southern-california-sunset-beach-with-backlit-palm-trees.jpg?s=612x612&w=0&k=20&c=dgPw2mSoKqvNYr7keC7mi8NcvqbVw7vYMxGhjCXLrwo=',
         answer: 'Summer',
     },
     {
         points: 200,
         question:
             'What color has the shortest wavelength ',
-        imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
         answer: 'Purple',
     },
     {
      points: 300,
         question:
             'What did I like baking have when I had more free time?',
-        imgSrc:
-            "/cake.jpg",
+        imgSrc: '/cake.jpg',
         answer: 'Cake',
     },
     {
      points: 400,
         question:
             'What did I learn to solve during COVID',
-        imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
         answer: 'Rubiks cube',
     }
 ]);
