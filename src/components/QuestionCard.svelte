@@ -90,7 +90,7 @@
 		};
 
 		const handleTimeUp = () => {
-			new Audio('https://www.myinstants.com/en/instant/womp-womp-womp-55094/?utm_source=copy&utm_medium=share').play();
+			new Audio('https://www.myinstants.com/media/sounds/downer_noise.mp3').play();
 		};
 
 		socket.on('buzzed', handleBuzzed);
@@ -134,7 +134,7 @@
 	$effect(() => {
 		// side effects, use this rune sparingly! like playing sounds.
 		if (isCorrect) {
-			new Audio('https://www.myinstants.com/en/instant/apple-pay-45496/?utm_source=copy&utm_medium=share').play();
+			new Audio('https://www.myinstants.com/media/sounds/kids-saying-yay-sound-effect_3.mp3').play();
 		}
 	});
 </script>

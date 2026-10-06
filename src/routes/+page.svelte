@@ -157,12 +157,12 @@
 {/if}
 
 <style>
-	@import url('https://fonts.cdnfonts.com/css/itc-korinna-std');
+	@import url('https://fonts.cdnfonts.com/css/kiddysans');
 
 	:root {
 		--theme-color: #d07af5;
 		--point-color: goldenrod;
-		font-family: 'ITC_ Korinna', sans-serif;
+		font-family: 'ITC_ kiddysans', sans-serif;
 		background-color:black;
 	}
 
