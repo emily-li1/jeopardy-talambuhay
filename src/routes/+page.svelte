@@ -160,7 +160,7 @@
 	@import url('https://fonts.cdnfonts.com/css/itc-korinna-std');
 
 	:root {
-		--theme-color: #060ce9;
+		--theme-color: #d07af5;
 		--point-color: goldenrod;
 		font-family: 'ITC_ Korinna', sans-serif;
 		background-color:black;
@@ -233,7 +233,7 @@
 
 	.question-card.answered {
 		background: var(--theme-color);
-		color: #888;
+		color: rgb(228, 32, 137);
 		cursor: default;
 	}
 
